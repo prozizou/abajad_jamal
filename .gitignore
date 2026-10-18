@@ -1,0 +1,22 @@
+# Secrets — ne JAMAIS committer
+*.keystore
+*.jks
+*.p12
+*.pem
+*token*
+.env
+
+# Intermédiaires apktool
+apktool/build/
+apktool/dist/
+*-unsigned.apk
+signed/
+
+# Outils téléchargés
+tools/
+*.idsig
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp

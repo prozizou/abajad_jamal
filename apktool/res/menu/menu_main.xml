@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/home_24x24" android:id="@id/mnHome" android:orderInCategory="100" android:title="@string/home" app:showAsAction="always" />
+    <item android:icon="@drawable/jumal_24x24" android:id="@id/mnJummal" android:orderInCategory="100" android:title="@string/jummalCalculator" app:showAsAction="always" />
+    <item android:icon="@drawable/arqam_24x24" android:id="@id/mnNumbers" android:orderInCategory="100" android:title="@string/argham" app:showAsAction="always" />
+    <item android:icon="@drawable/favorite_24x24" android:id="@id/mnFavorite" android:orderInCategory="100" android:title="Favorite" app:showAsAction="always" />
+    <item android:id="@id/mnInSetting" android:orderInCategory="100" android:title="@string/settngs" app:showAsAction="never" />
+    <item android:id="@id/mnInstr" android:orderInCategory="100" android:title="@string/instruction" app:showAsAction="never" />
+    <item android:id="@id/mnRating" android:orderInCategory="100" android:title="@string/rating" app:showAsAction="never" />
+    <item android:id="@id/mnShare" android:orderInCategory="100" android:title="@string/share" app:showAsAction="never" />
+    <item android:id="@id/mnAbout" android:orderInCategory="100" android:title="@string/about" app:showAsAction="never" />
+</menu>

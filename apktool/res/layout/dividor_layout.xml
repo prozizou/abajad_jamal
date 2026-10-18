@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="rtl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/colorYelow" android:id="@id/primeNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="@color/colorWhite" android:id="@id/dividor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="@color/colorWhite" android:id="@id/divresult" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="90.0dip" android:text="" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

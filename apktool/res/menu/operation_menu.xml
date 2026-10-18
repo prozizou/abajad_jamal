@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/mnCompNumbers" android:title=" " />
+    <item android:id="@id/mnCompPlus" android:title=" + " />
+    <item android:id="@id/mnCompMinus" android:title=" - " />
+    <item android:id="@id/mnCompMal" android:title=" x " />
+    <item android:id="@id/mnComDiv" android:title=" / " />
+</menu>

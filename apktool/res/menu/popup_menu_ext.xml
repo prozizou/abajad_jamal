@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/mnAyatToJummalClassic" android:title="@string/ayatToJummalClassic" />
+    <item android:id="@id/mnAyatToJummalCustom" android:title="@string/ayatToJummalCustom" />
+    <item android:id="@id/mnDividorOfNumber" android:title="@string/dividorOfNumber" />
+</menu>

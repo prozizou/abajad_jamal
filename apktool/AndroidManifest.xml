@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:installLocation="auto" package="jummal.tools.boulfal.com.jummalcalculator" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:label="@string/app_name" android:name="jummal.tools.boulfal.com.jummalcalculator.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.PreferenceActicity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.CustomActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.SearchActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.AyaActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.DividorActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.AboutActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.InstructionActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.SuraNumbersActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.AyaNumbersActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.FavoriteActivity"/>
+        <activity android:exported="true" android:name="jummal.tools.boulfal.com.jummalcalculator.CompareActivity"/>
+    </application>
+</manifest>

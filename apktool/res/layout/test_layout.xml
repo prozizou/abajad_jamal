@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/textView7">
+        <TextView android:id="@id/textView17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" />
+        <TextView android:id="@id/textView18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text" />
+    </LinearLayout>
+    <TextView android:textSize="8.0dip" android:textColor="#ffbce056" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sura" />
+    <TextView android:id="@id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Albaqra" android:layout_below="@id/textView" />
+</RelativeLayout>
