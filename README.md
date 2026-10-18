@@ -28,6 +28,7 @@ retravaillée (interface, textes, identité) et recompilée.
 | `apk/` | APK signé prêt à installer (`Asrar-Abjad-v1.6.apk`). |
 | `scripts/` | `build.sh` (recompilation) et `sign.sh` (alignement + signature). |
 | `docs/` | `CHANGES.md` — journal détaillé des modifications. |
+| `web/` | **Version web** (Next.js 14 + TypeScript + Tailwind) : calculateur Jummal + recherche de versets. 100 % éditable, déployable sur Vercel. Voir `web/README.md`. |
 
 ## Construire
 
